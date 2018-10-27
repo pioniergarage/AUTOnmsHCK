@@ -4,7 +4,7 @@ html {
 
 body {
   background: #fff;
-  font-family: "Open Sans", Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   line-height: 1.8;
   font-weight: 300;
@@ -28,7 +28,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a {
