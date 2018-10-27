@@ -250,7 +250,7 @@ textarea.form-control {
 .form-control:hover, .form-control:focus, .form-control:active {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
-  border: 2px solid #ff7a5c;
+  border: 2px solid #808080;
 }
 
 .site-nav-toggle {
@@ -344,7 +344,7 @@ textarea.form-control {
 
 .section-heading .small-sub-heading {
   font-size: 14px;
-  color: #ff7a5c;
+  color: #808080;
 }
 
 @media (min-width: 992px) {
@@ -403,7 +403,7 @@ textarea.form-control {
 .ftco-46 .ftco-46-subheading {
   font-size: 14px;
   color: #b3b3b3;
-  color: #ff7a5c;
+  color: #808080;
   text-transform: uppercase;
   letter-spacing: .2em;
 }
@@ -556,9 +556,13 @@ textarea.form-control {
 }
 
 .ftco-38 .ftco-38-header img {
-  width: 200px;
-  border-radius: 50%;
-  margin-bottom: 40px;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.footer-link:hover {
+  color: #404040
 }
 
 .btn-link {
@@ -619,9 +623,9 @@ textarea.form-control {
 
 .site-tab-nav li a.active {
   color: black;
-  color: #ff7a5c;
+  color: #808080;
   background: none;
-  border-bottom: 2px solid #ff7a5c;
+  border-bottom: 2px solid #808080;
 }
 
 .site-tab-nav, .nav-pills {
@@ -673,7 +677,7 @@ textarea.form-control {
 }
 
 .menu-food-item .price strong {
-  color: #ff7a5c;
+  color: #808080;
   font-size: 20px;
 }
 
@@ -697,7 +701,7 @@ textarea.form-control {
 }
 
 .footer-contact-widget .contact-email {
-  color: #ff7a5c;
+  color: #808080;
 }
 
 .footer-contact-widget .contact-phone {
@@ -741,7 +745,7 @@ textarea.form-control {
 
 .custom-icon {
   font-size: 70px;
-  color: #ff7a5c;
+  color: #808080;
 }
 
 .form-subscribe .form-group {
@@ -772,6 +776,39 @@ textarea.form-control {
   text-align: center;
   height: 100px;
   width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.feature-icon-bronze .icon {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+.feature-icon-silver .icon {
+  text-align: center;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 25px;
+}
+
+.feature-icon-gold .icon {
+  text-align: center;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
   display: inline-block;
   position: relative;
@@ -872,7 +909,7 @@ textarea.form-control {
 }
 
 .owl-carousel.centernonloop .owl-dots .owl-dot.active {
-  background: #ff7a5c;
+  background: #808080;
 }
 
 .owl-carousel.centernonloop .owl-dots .owl-dot:active, .owl-carousel.centernonloop .owl-dots .owl-dot:focus {
@@ -1009,11 +1046,11 @@ textarea.form-control {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  background: #ff7a5c;
+  background: #808080;
 }
 
 .owl-carousel.home-slider-loop-false .owl-dots .owl-dot.active {
-  border: 2px solid #ff7a5c;
+  border: 2px solid #808080;
 }
 
 .owl-carousel.home-slider-loop-false .owl-dots .owl-dot.active span {
@@ -1207,7 +1244,7 @@ textarea.form-control {
   margin: 0;
   border-radius: 50% !important;
   font-size: 16px;
-  background: #ff7a5c;
+  background: #808080;
   color: #fff;
 }
 
@@ -1260,8 +1297,10 @@ textarea.form-control {
 
 .cover_1 .img_bg {
   background-repeat: no-repeat;
-  background-size: cover !important;
+  background-size: 110% !important;
   background-position: center center;
+  background-size: cover;
+
 }
 
 .cover_1 .img_bg, .cover_1 .img_bg > .container > .row {
@@ -1386,7 +1425,7 @@ textarea.form-control {
 
 .menus .item .text .price {
   font-size: 30px;
-  color: #ff7a5c;
+  color: #808080;
   opacity: 1;
 }
 
@@ -1447,7 +1486,7 @@ textarea.form-control {
 }
 
 .accordion .btn-block[aria-expanded="true"] {
-  color: #ff7a5c;
+  color: #808080;
 }
 
 .accordion .btn-block[aria-expanded="true"] .icon:before {
@@ -1635,7 +1674,7 @@ textarea.form-control {
 }
 
 .ftco-footer-newsletter .form-group {
-  position: relative;
+  position: center;
 }
 
 .ftco-footer-newsletter .form-group .form-control {
@@ -1663,7 +1702,7 @@ textarea.form-control {
 
 .ftco-footer {
   background: #121212;
-  padding: 7em 0;
+  padding: 1em 0;
   font-size: 15px;
   font-weight: 400;
 }
