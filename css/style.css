@@ -556,7 +556,8 @@ textarea.form-control {
 }
 
 .ftco-38 .ftco-38-header img {
-  width: 500px;
+  width: 100%;
+  height: auto;
   margin-bottom: 20px;
   margin-top: 40px;
 }
@@ -1280,14 +1281,34 @@ textarea.form-control {
 }
 
 .cover_1.overlay:before {
-  position: absolute;
+  position: fixed;
   content: "";
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000;
   opacity: .2;
+}
+
+.vid_bg {
+  position: fixed;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  min-width: cover;
+  min-height: 100%;
+  width: cover;
+  height: 105%;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-attachment: fixed;
+}
+
+.placeholder_text {
+  margin-top: 22%;
 }
 
 .cover_1 .lead {
@@ -1296,7 +1317,7 @@ textarea.form-control {
 }
 
 .cover_1 .img_bg {
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: 110% !important;
   background-position: center center;
   background-size: cover;
