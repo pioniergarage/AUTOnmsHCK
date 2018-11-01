@@ -562,6 +562,13 @@ textarea.form-control {
   margin-top: 40px;
 }
 
+.ftco-38 .ftco-38-header-pg img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 55px;
+}
+
 .footer-link:hover {
   color: #404040
 }
@@ -1304,7 +1311,6 @@ textarea.form-control {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background-attachment: fixed;
 }
 
 .placeholder_text {
