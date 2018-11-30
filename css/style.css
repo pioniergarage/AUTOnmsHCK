@@ -36,7 +36,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a {
 }
 
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
-  color: #999999;
+  for: #999999;
 }
 
 .btn, .form-control {
@@ -560,6 +560,7 @@ textarea.form-control {
   height: auto;
   margin-bottom: 20px;
   margin-top: 40px;
+
 }
 
 .ftco-38 .ftco-38-header-pg img {
@@ -567,6 +568,25 @@ textarea.form-control {
   height: auto;
   margin-bottom: 20px;
   margin-top: 55px;
+
+}
+
+@media (min-width: 770px) {
+  .ftco-38 .ftco-38-header img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    transform: translate(60%, 50%);
+  }
+
+  .ftco-38 .ftco-38-header-pg img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 55px;
+    transform: translate(60%, 50%);
+  }
 }
 
 .footer-link:hover {
